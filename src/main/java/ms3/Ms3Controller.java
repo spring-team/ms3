@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @RestController
-class Ms3Controller {
+  class Ms3Controller {
 
 	@GetMapping("/hello/{name}")
 	public String person(@PathVariable String name) {
